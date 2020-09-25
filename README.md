@@ -15,13 +15,14 @@ MySQL (5.1+) via the MySQLi driver
 
 # Installation Process
 
-Clone the git repository
+# Clone the git repository
+git clone https://github.com/bhagabatabehera30/app_expert_covid19_tracker_new.git
 
 to your server and  import the database file  which is in data folder in root directory.
 
 keep the database name as covid_tracker and then import.
 
-No need to change this==========
+# No need to change this==========
 
 'hostname' => 'localhost',
 'username' => 'root',
@@ -29,11 +30,14 @@ No need to change this==========
 'database' => 'covid_tracker',
 # ==========================
 
-Finally start the server using command
+# You need to update composer
+composer update 
+
+# Finally start the server using command
 
 php spark serve
 
-Then in browser view this app
+# Then in browser view this app  
 
 http://localhost:8080/
 
